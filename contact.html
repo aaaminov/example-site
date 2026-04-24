@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Web Sprint Lab - Contact</title>
+    <meta
+      name="description"
+      content="Contact form mockup and GitHub Pages deployment checklist."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Source+Sans+3:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="site-shell">
+      <header class="topbar reveal">
+        <a class="brand" href="index.html">Web Sprint Lab</a>
+        <nav aria-label="Main navigation">
+          <ul class="menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="topics.html">Topics</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a class="active" href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <main>
+        <section class="grid-2 reveal">
+          <article class="panel">
+            <p class="eyebrow">Page 4</p>
+            <h1>Contact page mockup</h1>
+            <p>
+              This form is visual only and does not send data. It is useful for
+              practicing labels, inputs, and button markup.
+            </p>
+            <form class="contact-form" action="#" method="post">
+              <label for="name">Name</label>
+              <input id="name" name="name" type="text" placeholder="Alex" />
+
+              <label for="email">Email</label>
+              <input
+                id="email"
+                name="email"
+                type="email"
+                placeholder="alex@example.com"
+              />
+
+              <label for="message">Message</label>
+              <textarea
+                id="message"
+                name="message"
+                rows="5"
+                placeholder="Tell us about your website idea"
+              ></textarea>
+
+              <button type="submit">Send (demo)</button>
+            </form>
+          </article>
+
+          <aside class="panel">
+            <h2>GitHub Pages checklist</h2>
+            <ol class="steps">
+              <li>Create a public repository on GitHub.</li>
+              <li>Upload all files from this folder.</li>
+              <li>Open Settings, then Pages.</li>
+              <li>Select source: Deploy from branch.</li>
+              <li>Choose branch: main, folder: /root.</li>
+              <li>Wait for the site URL to appear.</li>
+            </ol>
+            <p class="note">
+              Keep personal data private. Publish only school-safe content.
+            </p>
+          </aside>
+        </section>
+      </main>
+
+      <footer class="footer reveal">
+        <p>End of demo project. Ready to upload.</p>
+      </footer>
+    </div>
+  </body>
+</html>
